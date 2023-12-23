@@ -1,1 +1,1 @@
-console.log('Karan'.length);
+console.log("Karan".length);

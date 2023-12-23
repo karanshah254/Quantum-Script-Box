@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    margin-top: 5%;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    text-align: center;
+    margin-top: 5%;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+*{
+    background-color: aqua;
+}
