@@ -1,0 +1,16 @@
+h2 {
+    color: orange;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+.box {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkkhaki;
+}
+
+body {
+    background-color: lightcyan;
+}
