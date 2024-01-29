@@ -1,6 +1,6 @@
 # Quantum-Script-Box
 
-- > Fork it <i class="fa-solid fa-hand-point-up"></i>
+- > Fork it &#xF206;
 - > Get it to your local device by using below command :-
 ```
     git clone url
