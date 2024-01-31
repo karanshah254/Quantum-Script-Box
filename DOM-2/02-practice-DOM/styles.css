@@ -1,0 +1,14 @@
+.p-Class {
+    color: darkblue;
+    font-size: 40px;
+}
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.new-class {
+    background-color: lightcoral;
+}
