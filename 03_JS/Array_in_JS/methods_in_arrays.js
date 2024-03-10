@@ -31,8 +31,9 @@ console.log(array3);
 
 // slice - pieces of element - slice(startIndex, endIndex) - doesn't include end index
 let stringArray = ['I', 'love', 'coding', 'in', 'JS'];
-console.log(stringArray.slice(1, 3));
-
+console.log(stringArray.slice(1, 3)); // index (1 to 2)
+console.log(stringArray.slice()); // copies a portion of an array
+console.log(stringArray.slice(-2)); // gives last two elements
 
 // splice - change/add/delete elements - splice(startIndex,deleteIndex,newValue);
 let numbers = [1, 2, 3, 4, 5];
