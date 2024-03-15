@@ -5,7 +5,6 @@
 // 4. quit  - to exit the todo
 
 let todo = [];
-
 let req = prompt("Enter choice : ");
 
 while (true) {
@@ -36,5 +35,3 @@ while (true) {
 
     req = prompt("Enter choice again : ");
 }
-
-
