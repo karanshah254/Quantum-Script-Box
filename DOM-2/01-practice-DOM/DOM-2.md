@@ -8,7 +8,7 @@
     div.before(newBtn); // before div element outside
 ```
 
-2. Delete element 
+2. Delete element
 ```js
     let para = document.querySelector("p");
     para.remove(); // removes p tag and its text
