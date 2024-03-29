@@ -22,7 +22,7 @@ document.getElementsByTagName("div");
 4. Query Selector: Access us to use any CSS selector
 ```js
 <div class = "name" id = "idName">text</div>
-document.querySelector("div"); // for all "div" tags
-document.querySelector("#idName"); // for all id = "idNane"
-document.querySelector(".name"); // for all class = ".name"
+document.querySelectorAll("div"); // for all "div" tags
+document.querySelectorAll("#idName"); // for all id = "idNane"
+document.querySelectorAll(".name"); // for all class = ".name"
 ```
