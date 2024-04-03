@@ -26,3 +26,24 @@ document.querySelectorAll("div"); // for all "div" tags
 document.querySelectorAll("#idName"); // for all id = "idNane"
 document.querySelectorAll(".name"); // for all class = ".name"
 ```
+
+5. Manipulating Atrrbutes
+```js
+let img = document.querySelector('img');
+img.getAttribute('id');
+img.setAttrbute('id','newImg');
+```
+
+6. Manipulating Style
+```js
+let heading = document.querySelector('h1');
+heading.style.color = 'red';
+heading.style.backgroundColor = 'yellow';
+```
+
+7. Adding elements with user choice
+```js
+let button = document.querySelector('button');
+let para = document.querySelector('p');
+p.insertAdjacentElement('beforebegin', button);
+```
