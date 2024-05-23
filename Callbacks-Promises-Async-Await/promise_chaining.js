@@ -1,4 +1,4 @@
-console.log("normal promise use with then and catch");
+console.log("use of promise chaining");
 
 function saveToDb(data) {
     return new Promise((resolve, reject) => {
@@ -14,7 +14,15 @@ function saveToDb(data) {
 // use of then and catch for promises
 saveToDb("apna college")
     .then(() => {
-        console.log("promise is resolved");
+        console.log("promise is resolved, data1 saved");
+        return saveToDb("hello world");
+    })
+    .then(() => {
+        console.log("promise is resolved, data2 saved");
+        return saveToDb("karan shah");
+    })
+    .then(() => {
+        console.log("promise is resolved, data3 saved");
     })
     .catch(() => {
         console.log("promise is rejected");
